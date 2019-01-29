@@ -1,3 +1,5 @@
+// Note: Do NOT use partInt(n, 2)
+
 const binaryToDecimal = (n) => {
   let decimal = 0;
   let binary = [...n].reverse();
@@ -8,5 +10,3 @@ const binaryToDecimal = (n) => {
   }
   return decimal;
 }
-
-// Note: Do NOT use partInt(n, 2)
