@@ -1,4 +1,4 @@
-powerSet = (string, arr, set1 = new Set()) => {
+const powerSet = (string, arr, set1 = new Set()) => {
   arr = [...new Set(string)].sort();
   for (let i = 1; i < (1<<arr.length); i++) {
     let str = '';
